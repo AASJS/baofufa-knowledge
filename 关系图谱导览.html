@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>保富法知识图谱 · 导览</title>
+<style>
+:root{--bg:#f7f4ee;--paper:#fffdf8;--ink:#2b2620;--muted:#8a8071;--line:#d9cfbe;--person:#3f5ea8;--yili:#a9854f;--event:#c96a3b;--gold:#a9854f;--accent:#5c4326}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Songti SC","STSong","Source Han Serif SC","思源宋体","Noto Serif CJK SC","SimSun",serif;line-height:1.9}
+.wrap{max-width:820px;margin:0 auto;padding:48px 26px 80px}
+header{text-align:center;padding:30px 0 26px;border-bottom:1px solid var(--line);margin-bottom:36px}
+.badge-top{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:13px;letter-spacing:5px;color:var(--gold)}
+h1{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:38px;letter-spacing:3px;margin:14px 0 8px;color:var(--accent)}
+.sub{color:var(--muted);font-size:15px;letter-spacing:1px}
+h2{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:23px;color:var(--accent);margin:40px 0 16px;padding-left:14px;border-left:4px solid var(--gold)}
+h3{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:18px;color:var(--accent);margin:26px 0 10px}
+p{margin:14px 0;font-size:17px}
+.lead{font-size:18px;background:#faf6ec;border-left:3px solid var(--gold);padding:18px 22px;border-radius:0 8px 8px 0;color:#54493a}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:20px;text-align:center}
+.card .n{font-family:"PingFang SC",sans-serif;font-size:34px;font-weight:700;display:block;margin-bottom:6px}
+.card .l{font-family:"PingFang SC",sans-serif;font-size:14px;color:var(--muted);letter-spacing:1px}
+.card.p .n{color:var(--person)} .card.y .n{color:var(--yili)} .card.e .n{color:var(--event)}
+ul{margin:12px 0;padding-left:26px}li{margin:8px 0;font-size:16px}
+li::marker{color:var(--gold)}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.dot.p{background:var(--person)}.dot.y{background:var(--yili)}.dot.e{background:var(--event)}
+code{font-family:"PingFang SC",sans-serif;background:#f0ebe0;padding:2px 7px;border-radius:5px;font-size:15px;color:var(--accent)}
+.step{display:flex;gap:16px;align-items:flex-start;margin:16px 0;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.step .k{font-family:"PingFang SC",sans-serif;flex:none;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;text-align:center;line-height:30px;font-weight:700}
+.step .t{font-size:16px}
+.quote{text-align:center;font-size:21px;color:var(--accent);margin:34px 0;padding:26px;background:#faf6ec;border-radius:12px;letter-spacing:1px}
+.foot{text-align:center;color:var(--muted);font-size:14px;margin-top:50px;padding-top:24px;border-top:1px solid var(--line)}
+@media(max-width:680px){.grid{grid-template-columns:1fr}h1{font-size:30px}.wrap{padding:30px 18px 60px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="badge-top">保 富 法</div>
+  <h1>知识图谱导览</h1>
+  <div class="sub">聂云台原著 · 王潮音整理 · 一张「人物—义理—篇章」的关系网</div>
+</header>
+
+<p class="lead">《保富法》只问一件事：<strong>发财不难，保财最难</strong>，财富怎样才能长久保住？本库把全书拆成 47 篇互相链接的笔记，再用一张可交互的图谱把它们串起来——不是线性的阅读，而是顺着关系去发现。</p>
+
+<div class="grid">
+  <div class="card p"><span class="n">18</span><span class="l">人物</span></div>
+  <div class="card y"><span class="n">19</span><span class="l">义理</span></div>
+  <div class="card e"><span class="n">10</span><span class="l">篇章</span></div>
+</div>
+<p style="text-align:center;color:var(--muted)">47 篇内容页 · 138 条双向链接 · 无孤立页、无失效链接</p>
+
+<h2>三类节点，三种颜色</h2>
+<ul>
+  <li><span class="dot p"></span><strong>人物（藏青蓝）</strong>：书中的史实例证。正面如曾国藩、范仲淹、乐山公，反面如哈同、周翁、陈某——用真实兴衰印证道理。</li>
+  <li><span class="dot y"></span><strong>义理（赭金）</strong>：全书的核心法则与比喻。保富法、天道亏盈益谦、因果报应、下棋喻……是这张网的骨架。</li>
+  <li><span class="dot e"></span><strong>篇章（橙陶）</strong>：原书的结构本身。编者的话、序一二三、上中下篇、书后、附录——把义理与人物归位到原文的脉络。</li>
+</ul>
+
+<h2>怎么打开图谱</h2>
+<div class="step"><div class="k">1</div><div class="t">在同一文件夹里，双击打开 <code>保富法知识图谱.html</code>。单文件、零依赖，断网也能用，手机浏览器同样可开。</div></div>
+<div class="step"><div class="k">2</div><div class="t"><strong>拖拽</strong>节点、<strong>滚轮</strong>缩放、在空白处<strong>平移</strong>画布；<strong>悬停</strong>某个节点会高亮它的邻居关系。</div></div>
+<div class="step"><div class="k">3</div><div class="t"><strong>点击</strong>任意节点，右侧即显示该页全文；正文里的 <code>[[链接]]</code> 也能点，直接跳到相关节点。</div></div>
+<div class="step"><div class="k">4</div><div class="t">用顶部按钮切换 <strong>全部 / 人物 / 义理 / 篇章</strong>，或用搜索框按名字过滤；右上角可隐藏连线、精简标签。</div></div>
+
+<h2>建议的阅读路径</h2>
+<p>先看中心的 <strong>保富法</strong>（连接最广，23 条关系），顺着它走到 <strong>上篇</strong> 的正反案例，再读 <strong>中篇</strong> 的天道比喻，最后以 <strong>下篇</strong> 乐山公的祖德实证收束。想找某句话的出处，用 <code>目录.md</code> 按主题定位。</p>
+
+<div class="quote">天妒英才尤忌财，为何钱财保不住；<br>聪明反彼聪明误，智者保富亦保福。</div>
+
+<h2>边界说明</h2>
+<p>本库忠实原文、白话重述，不编造出处、不夸大功效、不承诺任何理财回报。原文中的因果、业报等说法，如实呈现为书中观点，供学习参考，不构成投资、理财、法律或心理建议。</p>
+
+<div class="foot">静心知识库 · @圣为Ai设计</div>
+</div>
+</body>
+</html>
